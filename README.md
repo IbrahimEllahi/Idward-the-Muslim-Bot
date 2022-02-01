@@ -13,6 +13,14 @@ Idward provides fun trivia, daily Quran ayaats, searchable texts, jokes, and mor
 ![ayaat](https://user-images.githubusercontent.com/85767913/152040946-b3373d9c-69e6-4e5b-a083-388d4bc701e9.gif)
 
 
+## Setup
+
+Use `pip install pdf2image, beautifulsoup4, numpy, jsons, discord, discord-components, lxml, requests` to install all necessary packages
+
+### Manual Installations
+
+Manual installation of `install-pkg poppler-utils` and `install-pkg wkhtmltopdf` is compulsory for this program to function. All of these are included in
+
 ## Commands
 
 Idward comes with a variety of commands ranging from educational to straight up silly!
