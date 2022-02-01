@@ -10,8 +10,7 @@ Idward provides fun trivia, daily Quran ayaats, searchable texts, jokes, and mor
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 ## Examples
 
