@@ -8,5 +8,3 @@ Idward provides fun trivia, daily Quran ayaats, searchable texts, jokes, and mor
 
 
 
-![trivia](https://user-images.githubusercontent.com/85767913/152035780-667a35cd-0dd8-438f-a7e0-e7787b0f6c3b.mp4)
-
