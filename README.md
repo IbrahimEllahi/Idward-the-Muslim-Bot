@@ -6,4 +6,7 @@ Idward provides fun trivia, daily Quran ayaats, searchable texts, jokes, and mor
 
 ![daily ayaat](https://user-images.githubusercontent.com/85767913/152033731-cdfce056-4990-4363-abfb-6e9b2da684d2.png)
 
-![trivia](https://i.gyazo.com/66e70b0c694b187ba47edefaa700a107.mp4)
+
+
+![trivia](https://user-images.githubusercontent.com/85767913/152035780-667a35cd-0dd8-438f-a7e0-e7787b0f6c3b.mp4)
+
