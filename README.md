@@ -21,6 +21,9 @@ Use `pip install pdf2image, beautifulsoup4, numpy, jsons, discord, discord-compo
 
 Manual installation of `install-pkg poppler-utils` and `install-pkg wkhtmltopdf` is compulsory for this program to function. All of these are included in the [bash](https://github.com/IbrahimEllahi/Idward-the-Muslim-Bot/blob/main/install.bash) file.
 
+
+
+
 ## Commands
 
 Idward comes with a variety of commands ranging from educational to straight up silly!
