@@ -194,5 +194,5 @@ async def joke(ctx):
 
   await ctx.channel.send(embed=embedVar)
 
-bot.run("ODY4NTQ1Mjk3NzA4NjQ2NDUx.YPxN1w.RnhJg21Nny7PLW_PCvw-omSOdVU")
+bot.run(TOKEN)
 #bot.loop.create_task()
