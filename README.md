@@ -65,6 +65,8 @@ Idward comes with a variety of commands ranging from educational to straight up 
 
 <br>
 
+`!search_vid [search]` - Play random videos whenever you wish!
+
 `!ask [question]` - Indecisive? Don't worry Idward can make the decisions for you
 
 <br>
