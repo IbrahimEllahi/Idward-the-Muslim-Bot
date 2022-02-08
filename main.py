@@ -6,6 +6,8 @@ from trivia import gen_question
 from TorD import get_dare, get_truth
 from random import randint, choice
 import json, requests
+import re
+from bs4 import BeautifulSoup
 
 #./install.bash
 
@@ -18,6 +20,18 @@ DiscordComponents(bot)
 
 mention = lambda user_id: f"<@!{user_id}>"
 convert_id = lambda mention: mention[3:-1]
+
+def get_vid(title):
+
+  search = '+'.join(title.split())
+
+  url = f"https://www.youtube.com/results?search_query={search}"
+
+  html = requests.get(url).text
+
+  video_ids = re.findall(r"watch\?v=(\S{11})", html)
+  
+  return "https://www.youtube.com/watch?v=" + choice(video_ids[:6])
 
 async def real_member(user_id):
 
@@ -52,7 +66,16 @@ async def quran_search(ctx):
   await msg.delete()
   await ctx.channel.send(file=discord.File('ayaat.jpg'))
   os.remove('ayaat.jpg')
+  
+  
+@bot.command(name="search_vid")
+async def vid_search(ctx):
 
+  content = ' '.join(ctx.message.content.split()[1:])
+
+  await ctx.channel.send(get_vid(content))
+  
+  
 @bot.command(name="haram")
 async def haram_rater(ctx):
 
