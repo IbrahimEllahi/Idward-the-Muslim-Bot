@@ -29,7 +29,7 @@ Idward provides fun trivia, daily Quran ayaats, searchable texts, jokes, and mor
 
 ## Setup
 
-Use `pip install pdf2image, beautifulsoup4, numpy, jsons, discord, discord-components, lxml, requests` to install all necessary packages
+Use `pip install pdf2image, beautifulsoup4, numpy, discord, discord-components, lxml, requests` to install all necessary packages
 
 ### Manual Installations
 
